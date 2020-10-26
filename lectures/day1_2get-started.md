@@ -31,7 +31,7 @@ Taken from [DrWatson workflow tutorial](https://juliadynamics.github.io/DrWatson
 ```julia
 julia> using DrWatson
 
-julia> initialize_project("Example"; authors="CSL")
+julia> initialize_project("Example"; authors="CSL")   __crea las carpetas example y julia.worshop__
 
 shell> ls
 Example        julia-workshop
@@ -82,6 +82,7 @@ julia> using DrWatson
 
 julia> @quickactivate
  Activating environment at `~/Dropbox/Documents/teaching/julia-workshop/Example/Project.toml`
+ __esto hace que drwatson active cualquier paquete que necesito para mi proyectyo__
 
 (Example) pkg> 
 ```
@@ -96,7 +97,11 @@ When we add packages, we are adding them for the project.
 Status `~/Dropbox/Documents/teaching/julia-workshop/Example/Project.toml`
   [634d3b9d] DrWatson v1.16.0
   [ff71e718] MixedModels v3.0.0
+  
+  actualiza los paquetes y puede que haya cambios como corren pero dr watson te ayuda a que cada proyecto sea como un universo separado 
+  no importa si actualizaste tu computadora
 ```
+
 
 #### Let's talk about simulations
 
